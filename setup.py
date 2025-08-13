@@ -11,7 +11,7 @@ setup(
     author_email="seb@roadsi.de",
     url="https://www.github.com/elbaschid/lektor-envvars",
     py_modules=["lektor_envvars"],
-    install_requires=["lektor", "environs"],
+    install_requires=["environs"],
     entry_points={"lektor.plugins": ["envvars = lektor_envvars:EnvvarsPlugin"]},
     classifiers=[
         "License :: OSI Approved :: MIT License",
